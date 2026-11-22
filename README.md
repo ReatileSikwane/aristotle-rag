@@ -72,7 +72,7 @@ Developed and run on Windows 11 with Python 3.14, 8 GB of RAM and no GPU. Comman
 2. Create the environment and install dependencies:
 
    ```powershell
-   git clone <your-repo-url>
+   git clone https://github.com/ReatileSikwane/aristotle-rag.git
    cd aristotle-rag
    python -m venv .venv
    .venv\Scripts\Activate.ps1
