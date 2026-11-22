@@ -1,0 +1,81 @@
+# faithful: "yes"    every claim is stated in the passages it cites
+# faithful: "partly" main claim supported, but something added, two chapters merged,
+#                    or a claim credited to the wrong passage
+# faithful: "no"     a claim contradicts the passages or has no support in them
+# answers_question: "yes" / "partly" / "no"   does it address what was asked?
+
+- run: run_20261116_105924.json
+  id: q01
+  faithful: "yes"
+  answers_question: "yes"
+  notess: '[V.1], [V.1], [V.9] uncited as sources, [V.5] nearly word for word,'
+- run: run_20261116_105924.json
+  id: q02
+  faithful: "yes"
+  answers_question: "yes"
+  notes: '[VIII.5] is cited but not used in question'
+- run: run_20261116_105924.json
+  id: q04
+  faithful: "yes"
+  answers_question: "yes"
+  notes: ''
+- run: run_20261116_105924.json
+  id: q07
+  faithful: "no"
+  answers_question: "partly"
+  notes: 'The way virtue and cleverness are compared in the source and the answer are contradictory, where the answer implies that in the same way virtue is cultivated through excercise, cleverness it wisdom, the source implies they are opposite'
+- run: run_20261116_105924.json
+  id: q08
+  faithful: "yes"
+  answers_question: "yes"
+  notes: ''
+- run: run_20261116_105924.json
+  id: q10
+  faithful: "no"
+  answers_question: "yes"
+  notes: "Cited sources used partly answer the question but divert quickly into describing what a good man does, which useful does not direcly answer the question."
+- run: run_20261116_105924.json
+  id: q11
+  faithful: "yes"
+  answers_question: "yes"
+  notes: 'Mistakenly assumed [IV.7] and [II.7] were cited when they were not, but only [IV.3] was used in the answer and provides supportive statements within the source text.'
+- run: run_20261116_105924.json
+  id: q14
+  faithful: "yes"
+  answers_question: "yes"
+  notes: '[X.8], provides supporting statements but is labelled as an uncited source in answer'
+- run: run_20261116_105924.json
+  id: q20
+  faithful: "yes"
+  answers_question: "partly"
+  notes: '[X.8], labelled uncited has text that directly supports answer, but also its reference to power and oppurtunity is in relation to bravery and not courage directly,[III.6] references oppurtunity in the context of courage.'
+- run: run_20261116_105924.json
+  id: q21
+  faithful: 'no'
+  answers_question: 'no'
+  notes: 'Answer never defines eudaimonia clearly'
+- run: run_20261116_105924.json
+  id: q22
+  faithful: 'no'
+  answers_question: 'no'
+  notes: '[I.10], [I.8], [I.11], none answer the question clearly, deaths is in the context of happiness or in the case of [III.6] death is something to be faced with courage'
+- run: run_20261116_105924.json
+  id: q23
+  faithful: "no"
+  answers_question: "partly"
+  notes: '[III.5], has no direct reference to government or legistlation when it brings up equality'
+- run: run_20261116_105924.json
+  id: q24
+  faithful: "yes"
+  answers_question: "yes"
+  notes: 'Cites [V.2], whereas q01 cites [V.1] twice.'
+- run: run_20261116_105924.json
+  id: q25
+  faithful: 'yes'
+  answers_question: 'yes'
+  notes: ''
+- run: run_20261116_105924.json
+  id: q26
+  faithful: 'yes'
+  answers_question: 'yes'
+  notes: 'q14 use [IX.9], [I.9], labelled uncited directly supports answer,'

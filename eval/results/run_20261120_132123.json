@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "llm": "qwen2.5:3b",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "chunk_max_words": 180,
+    "use_glossary": false,
+    "chunk_overlap_words": 40,
+    "top_k": 4,
+    "rerank_pool": 12,
+    "rerank_min_score": -4.7,
+    "max_per_chapter": 0,
+    "min_top_score": 0.5,
+    "temperature": 0.2,
+    "seed": 42,
+    "n_chunks": 619
+  },
+  "retrieval": [
+    {
+      "id": "e07",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.7731690406799316,
+      "rank": null,
+      "retrieved": [
+        "VI.13",
+        "VI.12",
+        "VI.5",
+        "VI.13"
+      ],
+      "expected": []
+    }
+  ],
+  "generation": [
+    {
+      "id": "e07",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "question": "What does Plato's Republic say about practical wisdom?",
+      "expected": [],
+      "top_score": 0.7731690406799316,
+      "gate_score": 2.2070136070251465,
+      "refused": true,
+      "reason": "model_refusal",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 32.6
+    }
+  ]
+}

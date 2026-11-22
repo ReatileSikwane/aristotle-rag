@@ -1,0 +1,46 @@
+# Extension set for the glossary experiment. Kept separate from the frozen set.
+
+- id: e01
+  question: "What is phronesis?"
+  category: in_corpus
+  expected: ["VI.5"]
+  style: neutral
+
+- id: e02
+  question: "How does Aristotle define akrasia?"
+  category: in_corpus
+  expected: ["VII.1", "VII.3"]
+  style: aristotle_named
+
+- id: e03
+  question: "Why is theoria the best kind of activity?"
+  category: in_corpus
+  expected: ["X.8"]
+  style: neutral
+
+- id: e04
+  question: "Why does Aristotle say eudaimonia is the highest good?"
+  category: in_corpus
+  expected: ["I.8"]
+  style: aristotle_named
+
+- id: e05
+  question: "How does Kant's view of duty relate to eudaimonia?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+  notes: "contains a glossary term; expansion must not carry an out-of-corpus question past the gate"
+
+- id: e06
+  question: "What does Plato's Republic say about phronesis?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+  notes: "contains a glossary term; must stay refused"
+
+- id: e07
+  question: "What does Plato's Republic say about practical wisdom?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+  notes: "English twin of e06; tests the gate blind spot (other source named, topic in the text)"

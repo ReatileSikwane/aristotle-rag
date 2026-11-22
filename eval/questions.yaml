@@ -1,0 +1,164 @@
+# Evaluation Questions
+
+- id: q01
+  question: "What is justice?"
+  category: in_corpus
+  expected: ["V.1", "V.2", "V.5"]
+  style: neutral
+
+- id: q02
+  question: "What makes a good friend?"
+  category: in_corpus
+  expected: ["VIII.3"]
+  style: neutral
+
+- id: q03
+  question: "What is the role of a poet in society?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+
+- id: q04
+  question: "What are the responsibilities of a good government?"
+  category: ambiguous
+  expected: ["VIII.10", "X.9"]
+  style: neutral
+
+- id: q07
+  question: "How do we cultivate virtue?"
+  category: in_corpus
+  expected: ["II.1", "II.2"]
+  style: neutral
+
+- id: q08
+  question: "What is the difference between the liberal man and the prodigal man?"
+  category: in_corpus
+  expected: ["IV.1"]
+  style: neutral
+
+- id: q09
+  question: "Is self-love a virtuous act?"
+  category: in_corpus
+  expected: ["IX.8"]
+  style: neutral
+
+- id: q10
+  question: "Do you think self-love is a virtuous act?"
+  category: in_corpus
+  expected: ["IX.8"]
+  style: second_person
+
+- id: q11
+  question: "What are the qualities of a vulgar person?"
+  category: in_corpus
+  expected: ["IV.2", "IV.8"]
+  style: neutral
+
+- id: q12
+  question: "Do you know who won the 2018 World Cup?"
+  category: out_of_corpus
+  expected: []
+  style: second_person
+
+- id: q13
+  question: "Is evil inherent to human nature?"
+  category: ambiguous
+  expected: ["II.1", "X.9"]
+  style: neutral
+  notes: "partial answer exists; verify chapters by reading"
+
+- id: q14
+  question: "How do we find happiness?"
+  category: in_corpus
+  expected: ["I.9", "X.6", "X.8"]
+  style: neutral
+
+- id: q15
+  question: "Who is the current Priminister of Singapore"
+  category: out_of_corpus
+  expected: []
+  style: second_person
+
+- id: q17
+  question: "How many Rocky films are out currently?"
+  category: out_of_corpus
+  expected: []
+  style: second_person
+
+- id: q18
+  question: "What team does Lamine Yamal play for?"
+  category: out_of_corpus
+  expected: []
+  style: second_person
+
+- id: q19
+  question: "When did GTA San Andreas come out?"
+  category: out_of_corpus
+  expected: []
+  style: second_person
+
+- id: q20
+  question: "Why must we have courage?"
+  category: in_corpus
+  expected: ["II.2", "II.6", "II.7"]
+  style: neutral
+
+- id: q21
+  question: "What is eudaimonia?"
+  category: in_corpus
+  expected: ["I.7"]
+  style: neutral
+  notes: "Ross never uses the Greek word; the definition appears under 'happiness'. Tests the vocabulary gap."
+
+- id: q22
+  question: "What happens when we die"
+  category: ambiguous
+  expected: ["III.6"]
+  style: neutral
+  notes: "Calls death the end, but also long so that may allude to some kind of afterlife but it is never specified."
+
+
+- id: q23
+  question: "When does government intefrence in citizens private life become authoritarian? "
+  category: ambiguous
+  expected: ["VI.8"]
+  style: neutral
+
+- id: q24
+  question: "What do you think justice is?"
+  category: in_corpus
+  expected: ["V.1", "V.2", "V.5"]
+  style: second_person
+
+- id: q25
+  question: "What do you look for in a good friend?"
+  category: in_corpus
+  expected: ["VIII.3"]
+  style: second_person
+
+- id: q26
+  question: "What does Aristotle say about how we find happiness?"
+  category: in_corpus
+  expected: ["I.9", "X.6", "X.8"]
+  style: aristotle_named
+
+- id: q27
+  question: "How does Kant's categorical imperative differ from Aristotle's view of duty?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+  notes: "Kant is absent, but duty and virtue vocabulary is common in the text; scored 0.66 on retrieval earlier"
+
+- id: q28
+  question: "What is John Stuart Mill's principle of utility?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+  notes: "shares happiness and pleasure vocabulary; tests whether the model invents a link"
+
+- id: q29
+  question: "What happens to the soul after death?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+  notes: "decide after reading I.10 and I.11; if they partly answer it, change to ambiguous with those chapters"

@@ -1,0 +1,15 @@
+- run: run_20261120_232744.json
+  id: h01
+  faithful: "yes"
+  answers_question: "yes"
+  notes: ''
+- run: run_20261120_232744.json
+  id: h02
+  faithful: "no"
+  answers_question: "no"
+  notes: "uses the point from III.3 about what deliberation concerns without citing III.3"
+- run: run_20261120_232744.json
+  id: h03
+  faithful: "no"
+  answers_question: "no"
+  notes: "attributes traits of the vain man and the proud man to the wrong passage numbers, and credits several claims about the proud man and honours to the wrong chunk of IV.3 (one cited, one uncited)"

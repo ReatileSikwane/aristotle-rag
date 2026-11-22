@@ -1,0 +1,1016 @@
+{
+  "settings": {
+    "llm": "qwen2.5:3b",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "chunk_max_words": 180,
+    "chunk_overlap_words": 40,
+    "top_k": 4,
+    "max_per_chapter": 0,
+    "min_top_score": 0.5,
+    "temperature": 0.2,
+    "seed": 42,
+    "n_chunks": 619
+  },
+  "retrieval": [
+    {
+      "id": "q01",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.8018709421157837,
+      "rank": 1,
+      "retrieved": [
+        "V.5",
+        "V.1",
+        "V.9",
+        "V.1"
+      ],
+      "expected": [
+        "V.1",
+        "V.2",
+        "V.5"
+      ]
+    },
+    {
+      "id": "q02",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.7647179365158081,
+      "rank": 1,
+      "retrieved": [
+        "VIII.3",
+        "IX.11",
+        "VIII.5",
+        "IX.4"
+      ],
+      "expected": [
+        "VIII.3"
+      ]
+    },
+    {
+      "id": "q03",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.5947352647781372,
+      "rank": null,
+      "retrieved": [
+        "IX.7",
+        "X.9",
+        "VIII.1",
+        "VIII.9"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q04",
+      "category": "ambiguous",
+      "style": "neutral",
+      "top_score": 0.6123485565185547,
+      "rank": 4,
+      "retrieved": [
+        "VI.8",
+        "II.1",
+        "V.2",
+        "X.9"
+      ],
+      "expected": [
+        "VIII.10",
+        "X.9"
+      ]
+    },
+    {
+      "id": "q07",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.714439868927002,
+      "rank": 1,
+      "retrieved": [
+        "II.1",
+        "VI.12",
+        "II.1",
+        "II.6"
+      ],
+      "expected": [
+        "II.1",
+        "II.2"
+      ]
+    },
+    {
+      "id": "q08",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.6741150617599487,
+      "rank": 1,
+      "retrieved": [
+        "IV.1",
+        "IV.1",
+        "IV.1",
+        "IV.1"
+      ],
+      "expected": [
+        "IV.1"
+      ]
+    },
+    {
+      "id": "q09",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.6609283685684204,
+      "rank": 4,
+      "retrieved": [
+        "X.7",
+        "X.8",
+        "I.8",
+        "IX.8"
+      ],
+      "expected": [
+        "IX.8"
+      ]
+    },
+    {
+      "id": "q10",
+      "category": "in_corpus",
+      "style": "second_person",
+      "top_score": 0.6489218473434448,
+      "rank": 1,
+      "retrieved": [
+        "IX.8",
+        "X.8",
+        "I.10",
+        "I.8"
+      ],
+      "expected": [
+        "IX.8"
+      ]
+    },
+    {
+      "id": "q11",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.6402073502540588,
+      "rank": 6,
+      "retrieved": [
+        "IV.3",
+        "IV.3",
+        "IV.7",
+        "II.7"
+      ],
+      "expected": [
+        "IV.2",
+        "IV.8"
+      ]
+    },
+    {
+      "id": "q12",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.45011502504348755,
+      "rank": null,
+      "retrieved": [
+        "I.8",
+        "VI.9",
+        "VI.9",
+        "VI.10"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q13",
+      "category": "ambiguous",
+      "style": "neutral",
+      "top_score": 0.6927170753479004,
+      "rank": 2,
+      "retrieved": [
+        "X.2",
+        "X.9",
+        "X.2",
+        "VII.6"
+      ],
+      "expected": [
+        "II.1",
+        "X.9"
+      ]
+    },
+    {
+      "id": "q14",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.6654998064041138,
+      "rank": 3,
+      "retrieved": [
+        "I.8",
+        "I.13",
+        "X.6",
+        "I.8"
+      ],
+      "expected": [
+        "I.9",
+        "X.6",
+        "X.8"
+      ]
+    },
+    {
+      "id": "q15",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.4674375653266907,
+      "rank": null,
+      "retrieved": [
+        "VI.8",
+        "IV.3",
+        "V.2",
+        "III.7"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q17",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.4275776147842407,
+      "rank": null,
+      "retrieved": [
+        "IV.5",
+        "IV.5",
+        "III.9",
+        "X.4"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q18",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.3967379331588745,
+      "rank": null,
+      "retrieved": [
+        "IV.1",
+        "III.9",
+        "II.7",
+        "III.9"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q19",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.38307905197143555,
+      "rank": null,
+      "retrieved": [
+        "VI.2",
+        "X.4",
+        "VIII.9",
+        "I.5"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q20",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.6914156675338745,
+      "rank": 5,
+      "retrieved": [
+        "III.7",
+        "III.9",
+        "III.8",
+        "III.8"
+      ],
+      "expected": [
+        "II.2",
+        "II.6",
+        "II.7"
+      ]
+    },
+    {
+      "id": "q21",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.5166020393371582,
+      "rank": null,
+      "retrieved": [
+        "I.12",
+        "VI.8",
+        "I.12",
+        "II.7"
+      ],
+      "expected": [
+        "I.7"
+      ]
+    },
+    {
+      "id": "q22",
+      "category": "ambiguous",
+      "style": "neutral",
+      "top_score": 0.637420654296875,
+      "rank": 4,
+      "retrieved": [
+        "I.11",
+        "I.10",
+        "I.10",
+        "III.6"
+      ],
+      "expected": [
+        "III.6"
+      ]
+    },
+    {
+      "id": "q23",
+      "category": "ambiguous",
+      "style": "neutral",
+      "top_score": 0.6390648484230042,
+      "rank": null,
+      "retrieved": [
+        "V.6",
+        "VIII.10",
+        "X.9",
+        "X.9"
+      ],
+      "expected": [
+        "VI.8"
+      ]
+    },
+    {
+      "id": "q24",
+      "category": "in_corpus",
+      "style": "second_person",
+      "top_score": 0.7442647218704224,
+      "rank": 1,
+      "retrieved": [
+        "V.5",
+        "V.1",
+        "V.9",
+        "V.1"
+      ],
+      "expected": [
+        "V.1",
+        "V.2",
+        "V.5"
+      ]
+    },
+    {
+      "id": "q25",
+      "category": "in_corpus",
+      "style": "second_person",
+      "top_score": 0.7255033850669861,
+      "rank": 4,
+      "retrieved": [
+        "VIII.6",
+        "VIII.5",
+        "IX.11",
+        "VIII.3"
+      ],
+      "expected": [
+        "VIII.3"
+      ]
+    },
+    {
+      "id": "q26",
+      "category": "in_corpus",
+      "style": "aristotle_named",
+      "top_score": 0.7026530504226685,
+      "rank": 1,
+      "retrieved": [
+        "X.6",
+        "I.8",
+        "X.7",
+        "X.7"
+      ],
+      "expected": [
+        "I.9",
+        "X.6",
+        "X.8"
+      ]
+    },
+    {
+      "id": "q27",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.638873815536499,
+      "rank": null,
+      "retrieved": [
+        "VI.13",
+        "III.1",
+        "V.5",
+        "VI.2"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q28",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.6063170433044434,
+      "rank": null,
+      "retrieved": [
+        "VIII.13",
+        "VII.8",
+        "III.12",
+        "I.13"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q29",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.6235560774803162,
+      "rank": null,
+      "retrieved": [
+        "I.11",
+        "I.13",
+        "I.10",
+        "I.10"
+      ],
+      "expected": []
+    }
+  ],
+  "generation": [
+    {
+      "id": "q01",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "What is justice?",
+      "expected": [
+        "V.1",
+        "V.2",
+        "V.5"
+      ],
+      "top_score": 0.8018709421157837,
+      "gate_score": 8.115072250366211,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1
+      ],
+      "cited_chapters": [
+        "V.5"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "Justice is a kind of mean, related to an intermediate amount between extremes of excess and defect, in virtue of which the just man chooses and distributes what is justly, aiming for equality in proportion between himself and others [1].",
+      "seconds": 30.6
+    },
+    {
+      "id": "q02",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "What makes a good friend?",
+      "expected": [
+        "VIII.3"
+      ],
+      "top_score": 0.7647179365158081,
+      "gate_score": 5.122093200683594,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1,
+        3
+      ],
+      "cited_chapters": [
+        "VIII.3",
+        "VIII.5"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "A good friend is one who wishes and does what is good for the sake of the friend, or who wishes the friend to exist and live for the friend's sake. This aligns with the principles discussed in [1], where it is stated that perfect friendship is between good people who are alike in virtue, and such friendships are permanent and pleasant. They are also good without qualification and to each other, and are pleasant because the good are pleasant both without qualification and to each other. [3] further supports this by stating that the good man is lovable and desirable to the good man for both being good and desirable to each other.",
+      "seconds": 35.5
+    },
+    {
+      "id": "q03",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "question": "What is the role of a poet in society?",
+      "expected": [],
+      "top_score": 0.6023181080818176,
+      "gate_score": -6.077793121337891,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 0.7
+    },
+    {
+      "id": "q04",
+      "category": "ambiguous",
+      "style": "neutral",
+      "question": "What are the responsibilities of a good government?",
+      "expected": [
+        "VIII.10",
+        "X.9"
+      ],
+      "top_score": 0.6297134757041931,
+      "gate_score": -3.335505962371826,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1
+      ],
+      "cited_chapters": [
+        "II.1"
+      ],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I hold that the responsibilities of a good government are to form habits in citizens through the acts prescribed by the law for the common good, ensuring they become just, temperate, and brave. This is confirmed by the influence on states, where legislators create these habits to produce good citizens, distinguishing a good constitution from a bad one. [1]",
+      "seconds": 38.5
+    },
+    {
+      "id": "q07",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "How do we cultivate virtue?",
+      "expected": [
+        "II.1",
+        "II.2"
+      ],
+      "top_score": 0.7235429286956787,
+      "gate_score": 2.431190013885498,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        2,
+        3
+      ],
+      "cited_chapters": [
+        "II.1",
+        "VI.13"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "We cultivate virtue by first exercising it, as practical wisdom is to cleverness. We acquire potentiality through natural virtue, which we perfect through habituation. Just as we learn to build by building or play the lyre by playing, we become just, temperate, and brave by doing just, temperate, and brave acts [2]. This aligns with the idea that virtue is like practical wisdom, which is cultivated through practice and experience [3].",
+      "seconds": 37.0
+    },
+    {
+      "id": "q08",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "What is the difference between the liberal man and the prodigal man?",
+      "expected": [
+        "IV.1"
+      ],
+      "top_score": 0.737018346786499,
+      "gate_score": 7.070230484008789,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cited_chapters": [
+        "IV.1",
+        "IV.1",
+        "IV.1",
+        "IV.1"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "The liberal man and the prodigal man differ in their approach to giving and taking wealth. The liberal man is praised for giving and refraining from taking wealth appropriately, while the prodigal man wastes his substance on self-indulgence and spends recklessly, often from sources other than his own. The liberal man benefits many, whereas the prodigal man benefits no one, not even himself. [1] [2] [3] [4]",
+      "seconds": 40.0
+    },
+    {
+      "id": "q09",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "Is self-love a virtuous act?",
+      "expected": [
+        "IX.8"
+      ],
+      "top_score": 0.6888532638549805,
+      "gate_score": 0.9262779951095581,
+      "refused": true,
+      "reason": "model_refusal",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 22.0
+    },
+    {
+      "id": "q10",
+      "category": "in_corpus",
+      "style": "second_person",
+      "question": "Do you think self-love is a virtuous act?",
+      "expected": [
+        "IX.8"
+      ],
+      "top_score": 0.6826188564300537,
+      "gate_score": -0.012086551636457443,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1,
+        3,
+        4
+      ],
+      "cited_chapters": [
+        "I.10",
+        "III.5",
+        "IX.8"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I hold that self-love is not inherently virtuous. While the good man should indeed be a lover of self, it is the virtuous actions that benefit both the self and others that are truly commendable. [3] Virtue is in our power, and so too vice. The good man acts virtuously, which benefits himself and others, whereas the wicked man's actions clash with what he ought to do, leading to harm for both himself and others. [4] Therefore, self-love is more virtuous when it aligns with virtuous actions, which are beneficial to oneself and others. [1] Virtuous activities, such as contemplation and virtuous actions, are what constitute happiness and are more durable than knowledge of the sciences, indicating that engaging in virtuous acts is what truly makes a person happy and virtuous.",
+      "seconds": 44.8
+    },
+    {
+      "id": "q11",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "What are the qualities of a vulgar person?",
+      "expected": [
+        "IV.2",
+        "IV.8"
+      ],
+      "top_score": 0.6402073502540588,
+      "gate_score": 2.4321484565734863,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1
+      ],
+      "cited_chapters": [
+        "IV.3"
+      ],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "A vulgar person is one who displays strength against the weak, and who is open in their hate and in their love, speaking and acting openly. They are also given to telling the truth, except when they speak in irony to the vulgar [1].",
+      "seconds": 27.4
+    },
+    {
+      "id": "q12",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "question": "Do you know who won the 2018 World Cup?",
+      "expected": [],
+      "top_score": 0.45978373289108276,
+      "gate_score": null,
+      "refused": true,
+      "reason": "low_retrieval_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 0.2
+    },
+    {
+      "id": "q13",
+      "category": "ambiguous",
+      "style": "neutral",
+      "question": "Is evil inherent to human nature?",
+      "expected": [
+        "II.1",
+        "X.9"
+      ],
+      "top_score": 0.7185522317886353,
+      "gate_score": -0.6659178733825684,
+      "refused": true,
+      "reason": "model_refusal",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 18.7
+    },
+    {
+      "id": "q14",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "How do we find happiness?",
+      "expected": [
+        "I.9",
+        "X.6",
+        "X.8"
+      ],
+      "top_score": 0.6669182777404785,
+      "gate_score": 2.9302220344543457,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        3
+      ],
+      "cited_chapters": [
+        "X.6"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "We find happiness in an activity that is self-sufficient, not dependent on external goods. We must consider that happiness is akin to contemplation, which is in itself precious and desirable for its own sake. Therefore, happiness is a form of contemplation, as it does not lack anything. [3]",
+      "seconds": 31.1
+    },
+    {
+      "id": "q15",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "question": "Who is the current Priminister of Singapore",
+      "expected": [],
+      "top_score": 0.47423434257507324,
+      "gate_score": null,
+      "refused": true,
+      "reason": "low_retrieval_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 0.2
+    },
+    {
+      "id": "q17",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "question": "How many Rocky films are out currently?",
+      "expected": [],
+      "top_score": 0.4275776147842407,
+      "gate_score": null,
+      "refused": true,
+      "reason": "low_retrieval_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 0.1
+    },
+    {
+      "id": "q18",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "question": "What team does Lamine Yamal play for?",
+      "expected": [],
+      "top_score": 0.39893805980682373,
+      "gate_score": null,
+      "refused": true,
+      "reason": "low_retrieval_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 0.1
+    },
+    {
+      "id": "q19",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "question": "When did GTA San Andreas come out?",
+      "expected": [],
+      "top_score": 0.4042205810546875,
+      "gate_score": null,
+      "refused": true,
+      "reason": "low_retrieval_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 0.1
+    },
+    {
+      "id": "q20",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "Why must we have courage?",
+      "expected": [
+        "II.2",
+        "II.6",
+        "II.7"
+      ],
+      "top_score": 0.6955935955047607,
+      "gate_score": 3.064511775970459,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1
+      ],
+      "cited_chapters": [
+        "III.6"
+      ],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "We must have courage because it is a mean between excesses of fearlessness and rashness, aligning with noble actions or avoiding base ones. Courage is crucial for noble deeds, and thus requires both opportunity and power to be recognized. [1]",
+      "seconds": 27.0
+    },
+    {
+      "id": "q21",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "What is eudaimonia?",
+      "expected": [
+        "I.7"
+      ],
+      "top_score": 0.5166020393371582,
+      "gate_score": -8.147481918334961,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 1.2
+    },
+    {
+      "id": "q22",
+      "category": "ambiguous",
+      "style": "neutral",
+      "question": "What happens when we die",
+      "expected": [
+        "III.6"
+      ],
+      "top_score": 0.657373309135437,
+      "gate_score": -2.066068172454834,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1
+      ],
+      "cited_chapters": [
+        "I.10"
+      ],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I hold that when we die, we do not continue to experience happiness, as happiness is an activity that requires living. [1] This passage suggests that the dead are not considered happy, but rather blessed as they are beyond the reach of evils and misfortunes. [1] It also mentions that the dead still experience some external goods like honors and dishonors, but these do not affect their blessedness. [1]",
+      "seconds": 29.0
+    },
+    {
+      "id": "q23",
+      "category": "ambiguous",
+      "style": "neutral",
+      "question": "When does government intefrence in citizens private life become authoritarian? ",
+      "expected": [
+        "VI.8"
+      ],
+      "top_score": 0.6426715850830078,
+      "gate_score": -9.11327075958252,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 1.3
+    },
+    {
+      "id": "q24",
+      "category": "in_corpus",
+      "style": "second_person",
+      "question": "What do you think justice is?",
+      "expected": [
+        "V.1",
+        "V.2",
+        "V.5"
+      ],
+      "top_score": 0.7442647218704224,
+      "gate_score": 6.319046497344971,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1
+      ],
+      "cited_chapters": [
+        "V.5"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I hold that justice is a kind of mean, but not in the same way as the other virtues, but because it relates to an intermediate amount, while injustice relates to the extremes [1]. It is that in virtue of which the just man is said to be a doer, by choice, of that which is just, and one who will distribute either between himself and another or between two others not so as to give more of what is desirable to himself and less to his neighbour (and conversely with what is harmful), but so as to give what is equal in accordance with proportion; and similarly in distributing between two other persons [1]. This definition aligns with the idea that justice is about achieving a balanced, fair distribution of benefits and burdens, aiming for equality rather than favoritism or favoring oneself over others.",
+      "seconds": 36.8
+    },
+    {
+      "id": "q25",
+      "category": "in_corpus",
+      "style": "second_person",
+      "question": "What do you look for in a good friend?",
+      "expected": [
+        "VIII.3"
+      ],
+      "top_score": 0.7259950041770935,
+      "gate_score": 5.0313005447387695,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1
+      ],
+      "cited_chapters": [
+        "VIII.3"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I hold that a good friend is someone who is virtuous and shares similar virtues with you [1]. They are good and pleasant to you, and their friendship is enduring because they are good without qualification and useful to each other. They are also pleasant to you, as the good are pleasant both without qualification and to each other. Therefore, a good friend is someone who is virtuous, pleasant, and enduring, and who shares your virtues and activities, making them useful and pleasant to you.",
+      "seconds": 25.5
+    },
+    {
+      "id": "q26",
+      "category": "in_corpus",
+      "style": "aristotle_named",
+      "question": "What does Aristotle say about how we find happiness?",
+      "expected": [
+        "I.9",
+        "X.6",
+        "X.8"
+      ],
+      "top_score": 0.7192673683166504,
+      "gate_score": 0.3079613149166107,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1,
+        3,
+        4
+      ],
+      "cited_chapters": [
+        "I.8",
+        "X.6",
+        "X.8"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I hold that happiness is found in a virtuous activity of the soul, as we have defined it [1]. This activity aligns with the virtues, forms of friendship, and varieties of pleasure we have discussed. Happiness is not a mere disposition but an activity that is self-sufficient, as we have concluded [3]. It is desirable for its own sake, not merely as a concomitant of other goods [3]. Aristotle suggests that happiness encompasses contemplation, which is a form of activity that is precious in itself [4]. Thus, to find happiness, one must engage in virtuous activities, including contemplation, and have external prosperity to support this activity [1].",
+      "seconds": 39.6
+    },
+    {
+      "id": "q27",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "question": "How does Kant's categorical imperative differ from Aristotle's view of duty?",
+      "expected": [],
+      "top_score": 0.6557542085647583,
+      "gate_score": -9.357817649841309,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 1.1
+    },
+    {
+      "id": "q28",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "question": "What is John Stuart Mill's principle of utility?",
+      "expected": [],
+      "top_score": 0.6540326476097107,
+      "gate_score": -8.593863487243652,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 1.0
+    },
+    {
+      "id": "q29",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "question": "What happens to the soul after death?",
+      "expected": [],
+      "top_score": 0.6698406934738159,
+      "gate_score": -6.209916114807129,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 1.0
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+# Held-out questions. Do not run until the final configuration is fixed.
+
+- id: h01
+  question: "What makes a wise man?"
+  category: in_corpus
+  expected: ["VI.7", "VI.5"]
+  style: neutral
+  notes: "both chapters count: VI.7 philosophic wisdom, VI.5 practical wisdom"
+
+- id: h02
+  question: "What is the difference between inquiry and deliberation?"
+  category: in_corpus
+  expected: ["VI.9"]
+  style: neutral
+
+- id: h03
+  question: "What are the qualities of the proud man?"
+  category: in_corpus
+  expected: ["IV.3"]
+  style: neutral
+  notes: "IV.3 describes the proud man"
+
+- id: h04
+  question: "How do Marx and Aristotle's views on class differ?"
+  category: out_of_corpus
+  expected: []
+  style: aristotle_named
+
+- id: h05
+  question: "What would Aristotle say about the Buddhist perspective on death?"
+  category: out_of_corpus
+  expected: []
+  style: aristotle_named
+
+- id: h06
+  question: "How does technocratic rule differ from your understanding of justice?"
+  category: out_of_corpus
+  expected: []
+  style: second_person
+
+- id: h07
+  question: "What does Epicurus teach about pleasure and the good life?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+  notes: "shares pleasure and good-life vocabulary with the text"
+
+- id: h08
+  question: "What do the Stoics say about controlling anger?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+  notes: "anger is discussed in IV.5, so retrieval will find related text, but the Stoic position is not in the book"
+
+- id: h09
+  question: "Does Aristotle agree with the Prophet Muhammad's view on pride as a sin?"
+  category: out_of_corpus
+  expected: []
+  style: aristotle_named
+
+- id: h10
+  question: "What does Aristotle mean by enkrateia?"
+  category: in_corpus
+  expected: ["VII.1", "VII.2", "VII.3"]
+  style: aristotle_named
+  notes: "glossary term; Ross's word is continence; Book VII treats it; list confirmed by reading"
+
+- id: h11
+  question: "How does the Stoic idea of apatheia compare with Aristotle's mesotes?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+  notes: "contains glossary term mesotes; Stoic position is not in the book"
+
+- id: h12
+  question: "What does Confucius teach about philia?"
+  category: out_of_corpus
+  expected: []
+  style: neutral
+  notes: "contains glossary term philia"

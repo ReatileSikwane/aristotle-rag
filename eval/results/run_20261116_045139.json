@@ -1,0 +1,427 @@
+{
+  "settings": {
+    "llm": "qwen2.5:3b",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "chunk_max_words": 180,
+    "chunk_overlap_words": 40,
+    "top_k": 4,
+    "min_top_score": 0.5,
+    "temperature": 0.2,
+    "seed": 42
+  },
+  "retrieval": [
+    {
+      "id": "q01",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.8018709421157837,
+      "rank": 1,
+      "retrieved": [
+        "V.5",
+        "V.1",
+        "V.1",
+        "V.9"
+      ],
+      "expected": [
+        "V.1",
+        "V.2",
+        "V.5"
+      ]
+    },
+    {
+      "id": "q02",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.7647179365158081,
+      "rank": 1,
+      "retrieved": [
+        "VIII.3",
+        "VIII.6",
+        "VIII.5",
+        "IX.4"
+      ],
+      "expected": [
+        "VIII.3"
+      ]
+    },
+    {
+      "id": "q03",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.6023181080818176,
+      "rank": null,
+      "retrieved": [
+        "VI.8",
+        "IX.2",
+        "VIII.1",
+        "X.9"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q04",
+      "category": "ambiguous",
+      "style": "neutral",
+      "top_score": 0.6297134757041931,
+      "rank": 2,
+      "retrieved": [
+        "II.1",
+        "X.9",
+        "VI.8",
+        "V.2"
+      ],
+      "expected": [
+        "VIII.10",
+        "X.9"
+      ]
+    },
+    {
+      "id": "q07",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.7235429286956787,
+      "rank": 2,
+      "retrieved": [
+        "X.9",
+        "II.1",
+        "VI.13",
+        "X.9"
+      ],
+      "expected": [
+        "II.1",
+        "II.2"
+      ]
+    },
+    {
+      "id": "q08",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.737018346786499,
+      "rank": 1,
+      "retrieved": [
+        "IV.1",
+        "IV.1",
+        "IV.1",
+        "IV.1"
+      ],
+      "expected": [
+        "IV.1"
+      ]
+    },
+    {
+      "id": "q09",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.6888532638549805,
+      "rank": 5,
+      "retrieved": [
+        "II.6",
+        "I.10",
+        "X.8",
+        "IX.9"
+      ],
+      "expected": [
+        "IX.8"
+      ]
+    },
+    {
+      "id": "q10",
+      "category": "in_corpus",
+      "style": "second_person",
+      "top_score": 0.6826188564300537,
+      "rank": 4,
+      "retrieved": [
+        "I.10",
+        "II.6",
+        "III.5",
+        "IX.8"
+      ],
+      "expected": [
+        "IX.8"
+      ]
+    },
+    {
+      "id": "q11",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.6402073502540588,
+      "rank": 6,
+      "retrieved": [
+        "IV.3",
+        "IV.7",
+        "II.7",
+        "II.7"
+      ],
+      "expected": [
+        "IV.2",
+        "IV.8"
+      ]
+    },
+    {
+      "id": "q12",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.45978373289108276,
+      "rank": null,
+      "retrieved": [
+        "VII.3",
+        "I.8",
+        "I.2",
+        "VII.9"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q13",
+      "category": "ambiguous",
+      "style": "neutral",
+      "top_score": 0.7185522317886353,
+      "rank": 6,
+      "retrieved": [
+        "X.2",
+        "IX.9",
+        "X.2",
+        "III.7"
+      ],
+      "expected": [
+        "II.1",
+        "X.9"
+      ]
+    },
+    {
+      "id": "q14",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.6669182777404785,
+      "rank": 3,
+      "retrieved": [
+        "IX.9",
+        "I.8",
+        "X.6",
+        "X.8"
+      ],
+      "expected": [
+        "I.9",
+        "X.6",
+        "X.8"
+      ]
+    },
+    {
+      "id": "q15",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.47423434257507324,
+      "rank": null,
+      "retrieved": [
+        "IX.2",
+        "V.2",
+        "VI.8",
+        "V.6"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q17",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.4275776147842407,
+      "rank": null,
+      "retrieved": [
+        "IV.5",
+        "VII.5",
+        "II.8",
+        "III.9"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q18",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.39893805980682373,
+      "rank": null,
+      "retrieved": [
+        "VII.5",
+        "IV.1",
+        "VII.8",
+        "III.9"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q19",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.4042205810546875,
+      "rank": null,
+      "retrieved": [
+        "IV.1",
+        "VI.2",
+        "I.5",
+        "V.2"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q20",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.6955935955047607,
+      "rank": 2,
+      "retrieved": [
+        "III.6",
+        "II.7",
+        "X.8",
+        "III.7"
+      ],
+      "expected": [
+        "II.2",
+        "II.6",
+        "II.7"
+      ]
+    },
+    {
+      "id": "q21",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.5166020393371582,
+      "rank": null,
+      "retrieved": [
+        "I.12",
+        "VIII.9",
+        "I.12",
+        "II.7"
+      ],
+      "expected": [
+        "I.7"
+      ]
+    },
+    {
+      "id": "q22",
+      "category": "ambiguous",
+      "style": "neutral",
+      "top_score": 0.657373309135437,
+      "rank": 2,
+      "retrieved": [
+        "I.10",
+        "III.6",
+        "I.8",
+        "I.11"
+      ],
+      "expected": [
+        "III.6"
+      ]
+    },
+    {
+      "id": "q23",
+      "category": "ambiguous",
+      "style": "neutral",
+      "top_score": 0.6426715850830078,
+      "rank": 8,
+      "retrieved": [
+        "X.9",
+        "V.6",
+        "III.5",
+        "VIII.10"
+      ],
+      "expected": [
+        "VI.8"
+      ]
+    },
+    {
+      "id": "q24",
+      "category": "in_corpus",
+      "style": "second_person",
+      "top_score": 0.7442647218704224,
+      "rank": 1,
+      "retrieved": [
+        "V.5",
+        "V.1",
+        "V.2",
+        "V.1"
+      ],
+      "expected": [
+        "V.1",
+        "V.2",
+        "V.5"
+      ]
+    },
+    {
+      "id": "q25",
+      "category": "in_corpus",
+      "style": "second_person",
+      "top_score": 0.7259950041770935,
+      "rank": 1,
+      "retrieved": [
+        "VIII.3",
+        "VIII.6",
+        "VIII.5",
+        "IX.11"
+      ],
+      "expected": [
+        "VIII.3"
+      ]
+    },
+    {
+      "id": "q26",
+      "category": "in_corpus",
+      "style": "aristotle_named",
+      "top_score": 0.7192673683166504,
+      "rank": 2,
+      "retrieved": [
+        "I.8",
+        "I.9",
+        "X.6",
+        "X.8"
+      ],
+      "expected": [
+        "I.9",
+        "X.6",
+        "X.8"
+      ]
+    },
+    {
+      "id": "q27",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.6557542085647583,
+      "rank": null,
+      "retrieved": [
+        "III.1",
+        "V.5",
+        "VI.2",
+        "VI.13"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q28",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.6540326476097107,
+      "rank": null,
+      "retrieved": [
+        "III.12",
+        "I.13",
+        "III.1",
+        "VII.8"
+      ],
+      "expected": []
+    },
+    {
+      "id": "q29",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.6698406934738159,
+      "rank": null,
+      "retrieved": [
+        "I.8",
+        "VI.1",
+        "I.11",
+        "I.10"
+      ],
+      "expected": []
+    }
+  ],
+  "generation": null
+}

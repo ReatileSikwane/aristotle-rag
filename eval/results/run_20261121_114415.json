@@ -1,0 +1,444 @@
+{
+  "settings": {
+    "llm": "qwen2.5:3b",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "chunk_max_words": 180,
+    "use_glossary": false,
+    "chunk_overlap_words": 40,
+    "top_k": 4,
+    "prompt_version": "v1",
+    "rerank_pool": 12,
+    "rerank_min_score": -4.7,
+    "max_per_chapter": 0,
+    "min_top_score": 0.5,
+    "temperature": 0.2,
+    "seed": 42,
+    "n_chunks": 619
+  },
+  "retrieval": [
+    {
+      "id": "h01",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.707503080368042,
+      "rank": 1,
+      "retrieved": [
+        "VI.7",
+        "VII.10",
+        "VI.12",
+        "VI.5"
+      ],
+      "expected": [
+        "VI.7",
+        "VI.5"
+      ]
+    },
+    {
+      "id": "h02",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.832645058631897,
+      "rank": 1,
+      "retrieved": [
+        "VI.9",
+        "III.3",
+        "III.3",
+        "VI.9"
+      ],
+      "expected": [
+        "VI.9"
+      ]
+    },
+    {
+      "id": "h03",
+      "category": "in_corpus",
+      "style": "neutral",
+      "top_score": 0.7466270923614502,
+      "rank": 1,
+      "retrieved": [
+        "IV.3",
+        "IV.3",
+        "IV.3",
+        "IV.3"
+      ],
+      "expected": [
+        "IV.3"
+      ]
+    },
+    {
+      "id": "h04",
+      "category": "out_of_corpus",
+      "style": "aristotle_named",
+      "top_score": 0.6171892881393433,
+      "rank": null,
+      "retrieved": [
+        "VI.13",
+        "X.9",
+        "I.13",
+        "VI.1"
+      ],
+      "expected": []
+    },
+    {
+      "id": "h05",
+      "category": "out_of_corpus",
+      "style": "aristotle_named",
+      "top_score": 0.6428589820861816,
+      "rank": null,
+      "retrieved": [
+        "III.6",
+        "VI.13",
+        "VI.5",
+        "X.8"
+      ],
+      "expected": []
+    },
+    {
+      "id": "h06",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "top_score": 0.6726729273796082,
+      "rank": null,
+      "retrieved": [
+        "V.2",
+        "V.6",
+        "V.7",
+        "V.7"
+      ],
+      "expected": []
+    },
+    {
+      "id": "h07",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.6649272441864014,
+      "rank": null,
+      "retrieved": [
+        "VII.11",
+        "X.2",
+        "IX.9",
+        "I.5"
+      ],
+      "expected": []
+    },
+    {
+      "id": "h08",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.6976441144943237,
+      "rank": null,
+      "retrieved": [
+        "IV.5",
+        "IV.5",
+        "II.9",
+        "III.1"
+      ],
+      "expected": []
+    },
+    {
+      "id": "h09",
+      "category": "out_of_corpus",
+      "style": "aristotle_named",
+      "top_score": 0.6527367234230042,
+      "rank": null,
+      "retrieved": [
+        "IV.3",
+        "IV.3",
+        "X.8",
+        "IV.3"
+      ],
+      "expected": []
+    },
+    {
+      "id": "h10",
+      "category": "in_corpus",
+      "style": "aristotle_named",
+      "top_score": 0.6272199153900146,
+      "rank": 1,
+      "retrieved": [
+        "VII.3",
+        "VI.7",
+        "I.12",
+        "VI.7"
+      ],
+      "expected": [
+        "VII.1",
+        "VII.2",
+        "VII.3"
+      ]
+    },
+    {
+      "id": "h11",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.6037701368331909,
+      "rank": null,
+      "retrieved": [
+        "VI.7",
+        "VI.1",
+        "X.2",
+        "VII.3"
+      ],
+      "expected": []
+    },
+    {
+      "id": "h12",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "top_score": 0.5957027673721313,
+      "rank": null,
+      "retrieved": [
+        "VII.3",
+        "VI.7",
+        "II.4",
+        "VI.7"
+      ],
+      "expected": []
+    }
+  ],
+  "generation": [
+    {
+      "id": "h01",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "What makes a wise man?",
+      "expected": [
+        "VI.7",
+        "VI.5"
+      ],
+      "top_score": 0.707503080368042,
+      "gate_score": 3.5651893615722656,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1
+      ],
+      "cited_chapters": [
+        "VI.7"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "A wise man is someone who possesses both intuitive reason and scientific knowledge, specifically the scientific knowledge of the highest objects [1]. This combination allows him to not only know what follows from the first principles but also to possess truth about the first principles. Therefore, a wise man must be both knowledgeable and have a clear understanding of the foundational truths that underpin his knowledge. [1]",
+      "seconds": 32.4
+    },
+    {
+      "id": "h02",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "What is the difference between inquiry and deliberation?",
+      "expected": [
+        "VI.9"
+      ],
+      "top_score": 0.832645058631897,
+      "gate_score": 9.49951171875,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1
+      ],
+      "cited_chapters": [
+        "VI.9"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I hold that inquiry and deliberation are distinct activities. Inquiry is about investigating the nature of things, while deliberation focuses on deciding what to do, based on the means and mode of action. [1]",
+      "seconds": 9.6
+    },
+    {
+      "id": "h03",
+      "category": "in_corpus",
+      "style": "neutral",
+      "question": "What are the qualities of the proud man?",
+      "expected": [
+        "IV.3"
+      ],
+      "top_score": 0.7466270923614502,
+      "gate_score": 7.045746803283691,
+      "refused": false,
+      "reason": null,
+      "cited": [
+        1,
+        2,
+        3
+      ],
+      "cited_chapters": [
+        "IV.3",
+        "IV.3",
+        "IV.3"
+      ],
+      "cited_expected": true,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "The proud man is characterized by thinking himself worthy of great things, which implies he is worthy of them. He is neither overjoyed by good fortune nor over-pained by evil, showing moderation. He is good in the highest degree, and his virtues are great, as he deserves them. Pride, in his case, is a sign of nobility and goodness of character, as he does not act foolishly or silly in thinking himself worthy of great things. [1] [2] [3]",
+      "seconds": 18.2
+    },
+    {
+      "id": "h04",
+      "category": "out_of_corpus",
+      "style": "aristotle_named",
+      "question": "How do Marx and Aristotle's views on class differ?",
+      "expected": [],
+      "top_score": 0.6171892881393433,
+      "gate_score": -9.099292755126953,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 1.0
+    },
+    {
+      "id": "h05",
+      "category": "out_of_corpus",
+      "style": "aristotle_named",
+      "question": "What would Aristotle say about the Buddhist perspective on death?",
+      "expected": [],
+      "top_score": 0.6428589820861816,
+      "gate_score": -5.000737190246582,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 0.8
+    },
+    {
+      "id": "h06",
+      "category": "out_of_corpus",
+      "style": "second_person",
+      "question": "How does technocratic rule differ from your understanding of justice?",
+      "expected": [],
+      "top_score": 0.6726729273796082,
+      "gate_score": -4.420107841491699,
+      "refused": true,
+      "reason": "model_refusal",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 2.1
+    },
+    {
+      "id": "h07",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "question": "What does Epicurus teach about pleasure and the good life?",
+      "expected": [],
+      "top_score": 0.6649272441864014,
+      "gate_score": 2.247269630432129,
+      "refused": true,
+      "reason": "model_refusal",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 6.0
+    },
+    {
+      "id": "h08",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "question": "What do the Stoics say about controlling anger?",
+      "expected": [],
+      "top_score": 0.6976441144943237,
+      "gate_score": -3.478724241256714,
+      "refused": true,
+      "reason": "model_refusal",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 12.0
+    },
+    {
+      "id": "h09",
+      "category": "out_of_corpus",
+      "style": "aristotle_named",
+      "question": "Does Aristotle agree with the Prophet Muhammad's view on pride as a sin?",
+      "expected": [],
+      "top_score": 0.6527367234230042,
+      "gate_score": -6.274313926696777,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 0.9
+    },
+    {
+      "id": "h10",
+      "category": "in_corpus",
+      "style": "aristotle_named",
+      "question": "What does Aristotle mean by enkrateia?",
+      "expected": [
+        "VII.1",
+        "VII.2",
+        "VII.3"
+      ],
+      "top_score": 0.6272199153900146,
+      "gate_score": -6.825827121734619,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 0.8
+    },
+    {
+      "id": "h11",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "question": "How does the Stoic idea of apatheia compare with Aristotle's mesotes?",
+      "expected": [],
+      "top_score": 0.6037701368331909,
+      "gate_score": -9.645914077758789,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 1.1
+    },
+    {
+      "id": "h12",
+      "category": "out_of_corpus",
+      "style": "neutral",
+      "question": "What does Confucius teach about philia?",
+      "expected": [],
+      "top_score": 0.5957027673721313,
+      "gate_score": -6.890087127685547,
+      "refused": true,
+      "reason": "low_rerank_score",
+      "cited": [],
+      "cited_chapters": [],
+      "cited_expected": false,
+      "invalid_citations": [],
+      "uncited": false,
+      "answer": "I find nothing in the passages before me that answers this, and I will not guess.",
+      "seconds": 0.8
+    }
+  ]
+}

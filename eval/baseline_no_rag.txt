@@ -1,0 +1,35 @@
+
+FIRST ROUND TESTING
+
+--- llama3.2:3b (22.7s) ---
+In Aristotle's Nicomachean Ethics, eudaimonia (often translated as "happiness" or "flourishing") refers to a state of being that results from living a virtuous and fulfilling life. 
+It is characterized by the cultivation of virtues, the exercise of reason, and the achievement of one's potential,
+ leading to a life of happiness, fulfillment, and contentment. Eudaimonia is often considered the ultimate goal of human life, 
+ as it is the highest form of human flourishing and the key to living a life of purpose and meaning.
+
+--- qwen2.5:3b (27.6s) ---
+According to Aristotle's Nicomachean Ethics, eudaimonia, often translated as "flourishing," "well-being," or "happiness," is the highest human good and the ultimate goal of human life. 
+It is achieved through the pursuit of virtues and the development of a virtuous character, which allows one to live a life that is in harmony with reason and the pursuit of the good. 
+Aristotle argues that eudaimonia is not a state of pleasure or wealth, but rather a state of flourishing that comes from living in accordance with virtue and reason.
+
+SECOND ROUND TESTING: [BOTH MODELS PROVIDE TWO RESPONSES, FIRST BEING FOR WARM-UP, SECOND BEING FOR POST WARM -UP]
+
+Responses:
+--- llama3.2:3b (22.0s) ---
+I couldn't find any information about Aristotle's "Nichomache Ethics". Aristotle's most famous work is "Nicomachean Ethics", not "Nichomache Ethics".
+In "Nicomachean Ethics", eudaimonia (also known as eudaimonia or happiness) is the Greek concept that Aristotle defines as living a life of flourishing, fulfillment, 
+and happiness, achieved through the cultivation of virtues and the pursuit of one's unique potential.
+
+--- llama3.2:3b (16.0s) ---
+In Aristotle's Nicomachean Ethics, eudaimonia (often translated as "happiness" or "flourishing") refers to a state of being that results from living a virtuous and fulfilling life. 
+Eudaimonia is not just a feeling or a state of mind, but rather a condition of being that arises from the exercise of one's rational faculties and the cultivation of virtues such as wisdom, courage, and justice. Ultimately,
+ eudaimonia is the highest good and the ultimate goal of human life, as it allows individuals to achieve their full potential and live a life of purpose and fulfillment.
+
+--- qwen2.5:3b (22.8s) ---
+According to Aristotle's Nicomachean Ethics, eudaimonia, often translated as "flourishing," "well-being," or "happiness," is the ultimate human good. It is not merely pleasure or wealth,
+ but the achievement of a virtuous and well-lived life. Eudaimonia is the goal of human life, and it is attained through the development of virtues and the pursuit of activities that are noble and worthy of a human being.
+
+--- qwen2.5:3b (13.7s) ---
+According to Aristotle's Nichomachean Ethics, eudaimonia, often translated as "eudaimonia" or "flourishing" or "human flourishing," is the ultimate human good and the highest human goal. It is achieved through virtuous activity,
+ living in accordance with reason, and is the goal of human life. Eudaimonia is not merely happiness or pleasure, 
+ but a state of flourishing where one's life is well-lived, characterized by moral virtue, wisdom, and the pursuit of the good.
